@@ -132,3 +132,40 @@ h2{
     font-size: 20px;
     margin-top: -30px;
 }
+
+.call-section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    border-radius: 10px;
+    height: 120px;
+    color: #F9FAF8;
+}
+
+.call>button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 12px;
+}
