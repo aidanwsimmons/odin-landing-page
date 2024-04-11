@@ -14,7 +14,8 @@ body{
     height: 70px;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 0 18%;
+    position: sticky;
 }
 
 .logo{
@@ -37,30 +38,40 @@ li{
 .hero{
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0, 10%;
     color: #E5E7EB;
     font-size: 18px;
-    height: 500px;
+    height: 400px;
     align-items: center;
+    gap: 80px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 h1{
     font-size: 48px;
     color: #F9FAF8;
+    margin-bottom: -10px;
+    font-weight: bolder;
 }
 
 .left > button{
     background-color: #3882f6;
     padding: 10px 30px;
     color: #F9FAF8;
-    border-radius: 10%;
+    border-radius: 10px;
     border: none;
     font-size: 16px;
+    width: 20%;
 }
 
 .right{
-    background-color: rgb(135, 135, 135);
+    background-color: rgb(89, 92, 104);
     height: 200px;
     width: 30%;
     display: flex;
